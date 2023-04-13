@@ -92,8 +92,30 @@ const averageAge = (ageJonas + ageSarah) / 2;
 console.log(averageAge);
 
 -----------------------------------------------------
-*/
+
 
 const firstName = "Nathan";
 const job = "Software Dev";
 const birthYear = 2000;
+const year = 2023;
+
+const nathan =
+  "I'm " + firstName + ", a " + (year - birthYear) + " year old " + job + "!";
+
+console.log(nathan);
+
+//using template literals
+
+const nathanNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`; // can also use for a reugalr string
+console.log(nathanNew);
+
+console.log("string with \n multiple \n lines"); // older way
+console.log(`String with
+multiple
+lines`);
+
+-----------------------------------------------------
+*/
+
+const age = 19;
+const isOldEnough = age >= 18;

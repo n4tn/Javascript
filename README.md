@@ -50,3 +50,13 @@
 
  var shouldn't be used as it is legacy - works similar to let
 
+ ### String and Template literals
+
+ ```js
+ const nathanNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`;
+ 
+ console.log(`String with
+multiple
+lines`);
+ ```
+
