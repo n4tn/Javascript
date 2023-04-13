@@ -1,4 +1,5 @@
-/* let js = "amazing";
+/* 
+let js = "amazing";
 
 let firstName = "Jonas";
 let calculation = 40 + 8 + 23 - 10;
@@ -12,7 +13,7 @@ console.log(PI);
 
 //comment in JS
 
-*/
+-----------------------------------------------------
 
 let javascriptIsFun = true; // declared new variable
 console.log(true);
@@ -33,3 +34,66 @@ console.log(typeof year);
 
 console.log(typeof null);
 //should return null as it is not an object
+
+-----------------------------------------------------
+
+let age = 30;
+age = 31; //mutable
+
+const birthYear = 2000;
+// birthYear = 1990; //immutable
+
+// const job; // need an init value
+
+var job = "programmer";
+job = "teacher";
+
+lastName = "Bird"; //doesnt create a variable in scope - it makes a property on global scope
+console.log(lastName);
+
+// Math operators
+const now = 2037;
+const ageJonas = now - 1991;
+const ageSarah = now - 2018;
+console.log(ageJonas, ageSarah);
+
+console.log(ageJonas * 2, ageJonas / 2, 2 ** 3);
+
+const firstName = "Nathan";
+const lastName = "Bird";
+console.log(firstName + " " + lastName);
+
+// assignment operators
+let x = 10 + 5; // x = 15
+x += 10; // x = x + 10
+x *= 4;
+x++; // x = x + 1
+x--;
+console.log(x);
+
+// comparison operators
+console.log(ageJonas > ageSarah); // >, <, >=, <=
+console.log(ageSarah >= 18);
+
+const isFullAge = ageSarah >= 18;
+
+console.log(now - 1991 > now - 2018); // operation precedence
+
+const now = 2037;
+const ageJonas = now - 1991;
+const ageSarah = now - 2018;
+console.log(now - 1991 > now - 2018);
+
+let x, y;
+x = y = 25 - 10 - 5;
+console.log(x, y); // x and y both equal 10
+
+const averageAge = (ageJonas + ageSarah) / 2;
+console.log(averageAge);
+
+-----------------------------------------------------
+*/
+
+const firstName = "Nathan";
+const job = "Software Dev";
+const birthYear = 2000;

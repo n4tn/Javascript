@@ -1,3 +1,4 @@
+/*
 let country = "UK";
 let continent = "Europe";
 let population = 67.89;
@@ -13,3 +14,6 @@ console.log(typeof isIsland);
 console.log(typeof population);
 console.log(typeof country);
 console.log(typeof language);
+
+//let,const and var next
+*/

@@ -45,3 +45,8 @@
  Javascript has dynamic typing - we dont have to manually define the data type of the value stored in the variable (done automatically) 
  
  **Value has type, NOT variable**
+
+ let is used to declare variables that can change later
+
+ var shouldn't be used as it is legacy - works similar to let
+
